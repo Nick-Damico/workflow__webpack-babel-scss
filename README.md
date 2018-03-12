@@ -19,7 +19,7 @@ Babel Code Transpiling
 Install Babel and presets: `npm install babel-core babel-loader babel-preset-env`
 
 ## Note
-  Above to translate `SCSS` to `CSS` we have to use sass-loader, node-sass, css-loader, all together these three packages will let Webpack translate the SCSS to CSS for final put. Then using `extract-text-webpack-plugin` instead of following normal Webpack flow where the CSS would be finally output to the <head> elements of the document we output to a separate final .css file which instead can be linked to using a <link> element tag in the head of the document
+  Above to translate `SCSS` to `CSS`, we have to use sass-loader, node-sass, css-loader. These three packages will let Webpack translate the Scss to CSS for final output. Then using `extract-text-webpack-plugin` instead of following normal Webpack flow where the CSS would be finally output to the <head> elements of the document we output to a separate final .css file which instead can be linked to using a <link> element tag in the head of the document
 
 # Package Scripts
 

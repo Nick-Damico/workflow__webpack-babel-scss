@@ -8,15 +8,15 @@ Webpack,
 Babel
 
 # Manual Setup
-`NPM` `npm init -y`
-`Webpack` `npm install webpack --save-dev`
-`webpack Dev Server` `npm install webpack-dev-server --save-dev`
+Initialize with NPM: `npm init -y`
+Install Webpack: `npm install webpack --save-dev`
+Install Webpack dev server: `npm install webpack-dev-server --save-dev`
 
 SCSS Loaders
-'npm install sass-loader node-sass css-loader extract-text-webpack-plugin@4.0.0-beta.0 --save-dev'
+Install loaders for compiling .scss files: 'npm install sass-loader node-sass css-loader extract-text-webpack-plugin@4.0.0-beta.0 --save-dev'
 
 Babel Code Transpiling
-`npm install babel-core babel-loader babel-preset-env`
+Install Babel and presets: `npm install babel-core babel-loader babel-preset-env`
 
 ## Note
   Above to translate `SCSS` to `CSS` we have to use sass-loader, node-sass, css-loader, all together these three packages will let Webpack translate the SCSS to CSS for final put. Then using `extract-text-webpack-plugin` instead of following normal Webpack flow where the CSS would be finally output to the <head> elements of the document we output to a separate final .css file which instead can be linked to using a <link> element tag in the head of the document
